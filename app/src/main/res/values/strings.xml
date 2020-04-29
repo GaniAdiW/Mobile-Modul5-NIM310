@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Maps NIM 310</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps__lokasi_saya">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps_pantai_pelang">Map</string>
+    <string name="title_activity_maps_konservasi_penyu">Map</string>
+</resources>

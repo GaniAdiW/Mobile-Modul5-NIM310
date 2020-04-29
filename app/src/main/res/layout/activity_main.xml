@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/abuAbu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="305dp"
+            android:layout_marginBottom="590dp"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/map">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Lokasi Saya"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/transparan"
+            android:onClick="cekLokasiSaya">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:padding="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginBottom="470dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/konang_pantai">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="440dp"
+            android:text="PANTAI KONANG"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Klik untuk lihat di peta"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="440dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:height="110dp"
+            android:background="@drawable/background1"
+            android:onClick="pantaiKonang"
+            android:padding="40dp"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:padding="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginBottom="350dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pantai_pelang">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="360dp"
+            android:text="PANTAI PELANG"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Klik untuk lihat di peta"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="330dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:height="110dp"
+            android:background="@drawable/background1"
+            android:onClick="pantaiPelang"
+            android:padding="40dp"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:padding="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            tools:ignore="MissingConstraints">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginBottom="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/konservasi_penyu">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="220dp"
+            android:text="KONSERVASI PENYU TAMAN KILI-KILI"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Klik untuk lihat di peta"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:height="110dp"
+            android:background="@drawable/background1"
+            android:onClick="konservasiPenyu"
+            android:padding="40dp"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>
